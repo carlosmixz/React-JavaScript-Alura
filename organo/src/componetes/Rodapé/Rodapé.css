@@ -1,0 +1,45 @@
+.rodapé {
+    background-color: #6278F7;
+    background-image: url('./fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 213px;
+
+    color: white;
+}
+
+img {
+    object-fit: scale-down;
+}
+
+.logo img{
+    height: 63px;
+}
+
+.rs {
+    display: flex;
+
+    width: 20ch;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rs img {
+    height:24px;
+}
+
+.des h4{
+    width: 20ch;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
